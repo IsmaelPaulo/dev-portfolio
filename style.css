@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.neon-border {
+    position: relative;
+    text-decoration: none;
+}
+
+.neon-border::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #00d1ff, #00ff9d);
+    transition: width 0.3s ease;
+}
+
+.neon-border:hover::after {
+    width: 100%;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 209, 255, 0.2);
+}
+
+.gradient-text {
+    color: #00d1ff; 
+
+    background: linear-gradient(90deg, #00d1ff, #00ff9d);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}

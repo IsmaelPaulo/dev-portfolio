@@ -83,7 +83,7 @@ const navItems = [
             { 
                 "icon": "fab fa-linkedin", 
                 "label": "LinkedIn", 
-                "value": "linkedin.com/in/joaosilva",
+                "value": "a fazer . . .",
                 "href": "#", 
                 "color": "text-blue-400" 
             },

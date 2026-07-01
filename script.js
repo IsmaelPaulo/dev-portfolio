@@ -104,7 +104,7 @@ const navItems = [
             { 
                 "icon": "fas fa-envelope", 
                 "label": "E-mail", 
-                "value": "contato@joaosilva.dev",
+                "value": "ismarostirol4@gmail.com",
                 "href": "#", 
                 "color": "text-red-400" 
             }
@@ -271,4 +271,12 @@ const navItems = [
     }
 
     return false;
+}
+
+const backgroundVideo = document.getElementById("background-video");
+
+if (backgroundVideo) {
+    backgroundVideo.playbackRate = 0.2
+
+    ;
 }

@@ -12,6 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="font-poppins bg-darkblue text-lightgray">
+    
+    <video id="background-video" autoplay muted loop playsinline>
+        <source src="assets/imagens/background.mp4" type="video/mp4">
+    </video>
+
     <header class="fixed w-full bg-darkblue/90 backdrop-blur-sm z-50 shadow-lg">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
             <a href="#" class="text-xl font-bold gradient-text">Dev   <span class="text-white">ISMAEL</span></a>
@@ -26,21 +31,54 @@
     </header>
 
     <section id="hero" class="min-h-screen flex items-center pt-16">
-        <div class="container mx-auto px-4 py-20">
-            <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4">Olá, eu sou Ismael</h1>
-                <h2 class="text-xl md:text-2xl mb-6">Sou formado em Técnico em Análise e Desenvolvimento de Sistemas, com conhecimentos voltados ao desenvolvimento, manutenção e implementação de soluções tecnológicas. Minha formação abrange lógica de programação, programação orientada a objetos, desenvolvimento de aplicações web e desktop, modelagem e gerenciamento de bancos de dados, análise e levantamento de requisitos, engenharia de software, testes de sistemas e versionamento de código.</h2>
-                              
-                <div class="flex flex-wrap gap-4">
-                        <a href="#projects" class="px-6 py-3 bg-neon text-darkblue font-semibold rounded-md hover:bg-white transition">Ver Projetos</a>
-                        <a href="#contact" class="px-6 py-3 bg-neon text-darkblue font-semibold rounded-md hover:bg-white transition">Entrar em Contato</a>
+    <div class="container mx-auto px-4 py-20">
+        <div class="bg-black/60 backdrop-blur-sm rounded-2xl shadow-2xl p-8">
+
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+
+                <!-- Texto -->
+                <div class="max-w-3xl">
+
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                        Olá, eu sou Ismael
+                    </h1>
+
+                    <h2 class="text-xl md:text-2xl mb-6">
+                        Sou formado em Técnico em Análise e Desenvolvimento de Sistemas, com conhecimentos voltados ao desenvolvimento, manutenção e implementação de soluções tecnológicas. Minha formação abrange lógica de programação, programação orientada a objetos, desenvolvimento de aplicações web e desktop, modelagem e gerenciamento de bancos de dados, análise e levantamento de requisitos, engenharia de software, testes de sistemas e versionamento de código.
+                    </h2>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#projects"
+                            class="px-6 py-3 bg-neon text-darkblue font-semibold rounded-md hover:bg-white transition">
+                            Ver Projetos
+                        </a>
+
+                        <a href="#contact"
+                            class="px-6 py-3 bg-neon text-darkblue font-semibold rounded-md hover:bg-white transition">
+                            Entrar em Contato
+                        </a>
+                    </div>
+
                 </div>
+
+                <!-- Foto -->
+                <div class="flex justify-center lg:justify-end">
+
+                    <img
+                        src="assets/imagens/perfil.jpg"
+                        alt="Foto de Ismael"
+                        class="w-60 h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-neon shadow-2xl">
+
+                </div>
+
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="about" class="py-20">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4 bg-black/60 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
             <h2 class="text-3xl font-bold mb-2 neon-border inline-block">Sobre Mim</h2>
             <div class="grid md:grid-cols-2 gap-12 mt-12">
                 <div>
@@ -62,8 +100,8 @@
         </div>
     </section>
 
-    <section id="experience" class="py-20">
-        <div class="container mx-auto px-4">
+    <section id="experience" class="py-20 py-20 bg-black/60 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
+        <div class="container mx-auto px-4 ">
             <h2 class="text-3xl font-bold mb-12 neon-border inline-block">Experiência Profissional</h2>
             <div id="experience-list" class="space-y-10"></div>
         </div>

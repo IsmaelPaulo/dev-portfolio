@@ -83,8 +83,8 @@ const navItems = [
             { 
                 "icon": "fab fa-linkedin", 
                 "label": "LinkedIn", 
-                "value": "a fazer . . .",
-                "href": "#", 
+                "value": "www.linkedin.com/in/ismael-rostirola-8021aa307",
+                "href": "https://www.linkedin.com/in/ismael-rostirola-8021aa307/", 
                 "color": "text-blue-400" 
             },
             { 
@@ -93,13 +93,6 @@ const navItems = [
                 "value": "github.com/IsmaelPaulo",
                 "href": "https://github.com/IsmaelPaulo", 
                 "color": "text-gray-300" 
-            },
-            { 
-                "icon": "fab fa-whatsapp", 
-                "label": "WhatsApp", 
-                "value": "+55 (48) 9 9196-3616",
-                "href": "#", 
-                "color": "text-green-500" 
             },
             { 
                 "icon": "fas fa-envelope", 
@@ -111,9 +104,9 @@ const navItems = [
         ];
 
         const socialLinks = [
-            { "icon": "fab fa-linkedin-in", "href": "#", "color": "hover:text-blue-400" },
+            { "icon": "fab fa-linkedin-in", "href": "https://www.linkedin.com/in/ismael-rostirola-8021aa307/", "color": "hover:text-blue-400" },
             { "icon": "fab fa-github", "href": "https://github.com/IsmaelPaulo", "color": "hover:text-gray-300" },
-            { "icon": "fab fa-instagram", "href": "#", "color": "hover:text-purple-400" }
+
         ];
 
         function renderNavItems(items) {
@@ -276,7 +269,7 @@ const navItems = [
 const backgroundVideo = document.getElementById("background-video");
 
 if (backgroundVideo) {
-    backgroundVideo.playbackRate = 0.2
+    backgroundVideo.playbackRate = 0.4
 
     ;
 }
